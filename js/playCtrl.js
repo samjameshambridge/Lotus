@@ -156,7 +156,7 @@ const playCtrl = {
                         }
                     } else {
                         // at one second the code clears the timer and takes manual control
-                        playCtrl.trackHandler(totalSeconds, 1);
+                        playCtrl.trackHandler(totalSeconds, 0);
                         clearInterval(timer);
                         playCtrl.resetTimerBasedUi();
                         updateState({ timerIsRunning: false, timeCtrlActive: false });
