@@ -20,6 +20,20 @@ This app is a proof of concept app. It is designed to be used for people who wan
 
 ![home-screen](https://github.com/samjameshambridge/Lotus/blob/screenshots/screenshots/home-screen.png)
 
+Lotus home page on load.
+
+![home-screen](https://github.com/samjameshambridge/Lotus/blob/screenshots/screenshots/rain-play.png)
+
+Playing the rain landscape.
+
+![home-screen](https://github.com/samjameshambridge/Lotus/blob/screenshots/screenshots/timer.png)
+
+Using the timer feature.
+
+![home-screen](https://github.com/samjameshambridge/Lotus/blob/screenshots/screenshots/modal.png)
+
+The descriptive modal.
+
 ## Technologies
 This project is written with:
 * Javascript
