@@ -1,5 +1,7 @@
 # Lotus
 
+![Logo](./img/lotus.png)
+
 ## Table of contents
 * [Introduction](#introduction)
 * [Technologies](#technologies)
