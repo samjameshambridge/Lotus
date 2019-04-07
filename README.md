@@ -13,8 +13,6 @@ This app is a proof of concept app. It is designed to be used for people who wan
 1. Meditate to peaceful and immersive landscapesfor a set amount of time.
 2. Play the landscapes and their sounds in the background of the PC for a relaxing and calm environment. 
 
-The inspiration behind this app was to create a web application with Javascript and CSS that I would want to use without using any frameworks or libraries.
-
 ## Technologies
 This project is written with:
 * Javascript
@@ -36,6 +34,10 @@ Project is: _inProgress.
 There are a few more features I would like to add ats some point in the future.
 
 ## Inspiration
+
+The inspiration behind this app was a tutorial by DevEdwin https://github.com/DevEdwin/meditation-app.
+
+The attraction of writing this app was to write a web app which I would want to use, using only vanilla Javascript with CSS and HTML without any frameworks or libraries.
 
 ## Contact
 
