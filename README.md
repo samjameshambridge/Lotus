@@ -16,7 +16,7 @@ This app is a proof of concept app. It is designed to be used for people who wan
 ## Technologies
 This project is written with:
 * Javascript
-* CSS
+* CSS / SASS
 * HTML-5
 
 ## Features
@@ -37,7 +37,7 @@ There are a few more features I would like to add ats some point in the future.
 
 The inspiration behind this app was a tutorial by DevEdwin https://github.com/DevEdwin/meditation-app.
 
-The attraction of writing this app was to write a web app which I would want to use, using only vanilla Javascript with CSS and HTML without any frameworks or libraries.
+The attraction of writing this app was to write a web app which I would want to use, using vanilla Javascript without any frameworks or libraries.
 
 ## Contact
 
