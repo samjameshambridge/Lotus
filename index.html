@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Lotus</title>
+</head>
+
+<body>
+  <video loop muted="muted">
+    <source src="./video/desert-island.mp4" type="video/mp4" />
+  </video>
+
+  <div class="app">
+    <nav>
+      <div class="overlay"></div>
+      <div class="brand-container">
+        <img src="img/lotus.png" alt="Lotus" id="brand" />
+      </div>
+      <div class="nav-container">
+        <div class="icon-group">
+          <img src="./svg/drop.svg" data-video="video/rain.mp4" data-sound="./sounds/rain.mp3" alt="rain" />
+          <img src="./svg/snowing.svg" data-video="video/snowfall.mp4" data-sound="./sounds/snow.mp3" alt="snow" />
+          <img src="./svg/sun.svg" data-video="video/beach.mp4" data-sound="./sounds/beach.mp3" alt="sun" />
+          <img src="./svg/forest.svg" data-video="video/forest.mp4" data-sound="./sounds/forest.mp3" alt="forest" />
+          <img src="./svg/waterfall.svg" data-video="video/waterfall.mp4" data-sound="sounds/waterfall.mp3"
+            alt="waterfall" />
+          <img src="./svg/island.svg" data-video="video/desert-island.mp4" data-sound="./sounds/desert-island.mp3"
+            alt="island" />
+          <img src="./svg/river.svg" data-video="video/river.mp4" data-sound="./sounds/river.mp3" alt="river" />
+          <img src="./svg/mountains.svg" data-video="video/mountains.mov" data-sound="sounds/mountains.mp3"
+            alt="mountain" />
+          <img src="./svg/fields.svg" data-video="video/meadow.mp4" data-sound="./sounds/meadow.mp3" alt="fields" />
+        </div>
+        <div class="volume-set">
+          <i class="fas-fa-volume-up"></i>
+          <input type="range">
+        </div>
+        <div class="timer-set">
+          <input type="time" value="00:00:00" name="timer" step="1" />
+          <img src="svg/timer.svg" alt="timer" />
+        </div>
+      </div>
+    </nav>
+
+    <div class="player-container">
+      <audio>
+        <source src="./sounds/desert-island.mp3" />
+      </audio>
+      <img src="./svg/play.svg" alt="play" class="play" />
+
+      <svg class="track-outline" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="15" />
+      </svg>
+      <svg class="moving-outline" width="453" height="453" viewBox="0 0 453 453" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="15" />
+      </svg>
+    </div>
+  </div>
+  <div class="modal">
+    <i class="fa fa-times"></i>
+    <div class="modal-flex-set">
+      <img src="img/lotus.png" alt="lotus">
+      <p>This app is a proof-of-concept app for people to relax with, meditate or just have on in the background of your
+        computer to keep you chill.</p>
+      <br>
+      <p> Visit my github page to see more of my work!</p>
+      <br>
+      <p>Enjoy!</p>
+      <div class="button-set">
+        <button id="github-btn">Visit Github</button>
+        <button id="return-btn">Return</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/state.js" type="module"></script>
+  <script src="./js/playCtrl.js" type="module"></script>
+  <script src="./js/uiCtrl.js" type="module"></script>
+  <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>
