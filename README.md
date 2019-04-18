@@ -52,7 +52,7 @@ This project is written with:
 
 Project is: _inProgress.
 
-There are a few more features I would like to add ats some point in the future.
+There are a few more features I would like to add at some point in the future.
 
 ## Inspiration
 
