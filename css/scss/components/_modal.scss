@@ -1,0 +1,47 @@
+.modal {
+  background: white;
+  display: none;
+  font-family: $informational-font;
+  left: 25vw;
+  position: relative;
+  top: -80vh;
+  width: 50%;
+  z-index: 3;
+
+  @media screen and (max-width: $medium) {
+    left: 5%;
+    width: 90% !important;
+  }
+
+  i {
+    height: 5%;
+    left: 48vw;
+    position: relative;
+    top: 2vh;
+
+    @media screen and (max-width: $medium) {
+      display: none;
+    }
+  }
+
+  .modal-flex-set {
+    @include flex-center-children();
+    flex-direction: column;
+
+    img {
+      height: 20vh;
+      margin: 2em 0;
+    }
+
+    p {
+      letter-spacing: 0.1rem;
+      width: 75%;
+    }
+
+    .button-set {
+      @include flex-justify-evenly();
+      margin: 1.25em 0;
+      width: 100%;
+    }
+  }
+}

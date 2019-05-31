@@ -1,0 +1,40 @@
+.player-container {
+  @include flex-center-children();
+  flex-flow: column nowrap;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+
+  .play {
+    flex: 1;
+    height: 10vh;
+    left: 1vw;
+    position: relative;
+    width: 5vw;
+  }
+
+  svg {
+    pointer-events: none;
+    transform: rotate(-90deg);
+
+    circle {
+      transition: all 0.25s ease;
+    }
+  }
+
+  .track-outline,
+  .moving-outline {
+    height: 25%;
+    position: fixed;
+    visibility: hidden;
+    transition: all 0.5s ease;
+  }
+}
+
+video {
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  width: 100vw;
+  z-index: -1;
+}

@@ -1,0 +1,42 @@
+body {
+  box-sizing: border-box;
+  color: #000;
+  font-family: $default-font;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  // general tag styling
+  button {
+    background: none;
+    border: none;
+    font-family: $default-font;
+    font-size: 1.3rem;
+  }
+
+  button:hover,
+  img:hover,
+  i:hover,
+  .play,
+  input[type="range"]::-webkit-slider-thumb,
+  input[type="time"] {
+    cursor: pointer;
+  }
+
+  button:focus,
+  input:focus {
+    outline: none;
+  }
+
+  p {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+}

@@ -1,0 +1,154 @@
+// navigation bar styling
+nav {
+  height: 100vh;
+  position: fixed;
+  width: 20vw;
+  z-index: 2;
+
+  @media screen and (max-width: $medium) {
+    width: 33vw !important;
+  }
+
+  .overlay {
+    background: #fff;
+    height: 100%;
+    margin: 0;
+    opacity: 0.7;
+    position: fixed;
+    transition: all 0.5s ease;
+    width: 20vw;
+    z-index: -1;
+
+    @media screen and (max-width: $medium) {
+      width: 33vw !important;
+    }
+  }
+
+  .nav-container {
+    @include flex-justify-evenly();
+    flex-direction: column;
+    height: 66%;
+    transition: all 1s ease;
+  }
+
+  .brand-container {
+    @include flex-center-children();
+    height: 20%;
+    margin-top: 5vh;
+
+    img {
+      width: 40%;
+
+      @media screen and (max-width: $medium) {
+        width: 50%;
+      }
+    }
+  }
+
+  .icon-group {
+    @include flex-justify-evenly();
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+
+    @media screen and (max-width: $small) {
+      height: 80%;
+    }
+
+    img {
+      height: 7vh;
+      margin: 0.5em 0;
+      transition: all 0.25s ease;
+      width: 27%;
+
+      @media screen and (max-width: $small) {
+        widht: 45%;
+      }
+    }
+
+    img:hover {
+      transform: scale(1.25);
+    }
+  }
+
+  .volume-set {
+    @include flex-justify-evenly();
+    flex-direction: column;
+    height: 15%;
+
+    @media screen and (max-width: $small) {
+      display: none;
+    }
+
+    i,
+    input[type="range"] {
+      align-self: center;
+    }
+
+    input[type="range"],
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    input[type="range"] {
+      background: #a9a9a9;
+      height: 5px;
+      margin: 1em 0em;
+      width: 80%;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      background: #808080;
+      border: solid transparent 0px;
+      border-radius: 50%;
+      height: 15px;
+      width: 15px;
+    }
+  }
+
+  .timer-set {
+    @include flex-center-children();
+    height: 15%;
+
+    @media screen and (max-width: $small) {
+      display: none;
+    }
+
+    img {
+      height: 50%;
+      margin: 0 1em;
+      transition: all 0.25s ease;
+    }
+
+    img:hover {
+      transform: scale(1.25);
+    }
+  }
+
+  input[type="time"] {
+    background: none;
+    border: solid transparent 0px;
+    font-family: $default-font;
+    font-size: 2.5rem;
+    left: 5%;
+    position: relative;
+
+    @media screen and (max-width: $medium) {
+      font-size: 1.5em;
+    }
+
+    @media screen and (max-width: $large) {
+      font-size: 2rem;
+    }
+  }
+
+  input[type="time"]::-webkit-outer-spin-button,
+  input[type="time"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  input[type="time"]::-webkit-clear-button {
+    display: none;
+  }
+}

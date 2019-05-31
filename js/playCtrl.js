@@ -67,7 +67,7 @@ const playCtrl = {
         timerBtn.addEventListener('click', this.timeCtrl);
 
         timerInput.addEventListener('keyup', () => {
-            if (state.timeCtrlActive) timerBtn.click();;
+            if (state.timeCtrlActive) timerBtn.click();
         })
     },
 
