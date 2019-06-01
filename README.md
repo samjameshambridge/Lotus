@@ -1,20 +1,23 @@
-# Lotus
+# [Lotus](https://samjameshambridge.github.io/Lotus)
 
 ![Logo](./img/lotus.png)
 
 ## Table of contents
-* [Introduction](#introduction)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+
+- [Introduction](#introduction)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Features](#features)
+- [Status](#status)
+- [Inspiration](#inspiration)
+- [Contact](#contact)
 
 ## Introduction
-This app is a proof of concept app. It is designed to be used for people who want to either: 
+
+This app is a proof of concept app. It is designed to be used for people who want to either:
+
 1. Meditate to peaceful and immersive landscapesfor a set amount of time.
-2. Play the landscapes and their sounds in the background of the PC for a relaxing and calm environment. 
+2. Play the landscapes and their sounds in the background of the PC for a relaxing and calm environment.
 
 ## Screenshots
 
@@ -35,22 +38,24 @@ Using the timer feature.
 The descriptive modal.
 
 ## Technologies
+
 This project is written with:
-* Javascript
-* CSS / SASS
-* HTML-5
+
+- Javascript
+- CSS / SASS
+- HTML-5
 
 ## Features
 
-* Pause and play video landscape backgrounds 
-* Volume Control
-* Timer for setting a time between play and pause
-* Play Track for visualisation of time remaining
-* Descriptive modal
+- Pause and play video landscape backgrounds
+- Volume Control
+- Timer for setting a time between play and pause
+- Play Track for visualisation of time remaining
+- Descriptive modal
 
 ## Status
 
-Project is: _inProgress.
+Project is: \_inProgress.
 
 There are a few more features I would like to add at some point in the future.
 
