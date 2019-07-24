@@ -10,7 +10,7 @@ nav {
   }
 
   .overlay {
-    background: #fff;
+    background: $theme-white;
     height: 100%;
     margin: 0;
     opacity: 0.7;
@@ -25,14 +25,13 @@ nav {
   }
 
   .nav-container {
-    @include flex-justify-evenly();
-    flex-direction: column;
+    @include displayFlex(stretch, space-evenly, column);
     height: 66%;
     transition: all 1s ease;
   }
 
   .brand-container {
-    @include flex-center-children();
+    @include displayFlex(center, center);
     height: 20%;
     margin-top: 5vh;
 
@@ -46,8 +45,7 @@ nav {
   }
 
   .icon-group {
-    @include flex-justify-evenly();
-    flex-wrap: wrap;
+    @include displayFlex(stretch, space-evenly, row wrap);
     height: 50%;
     width: 100%;
 
@@ -72,8 +70,7 @@ nav {
   }
 
   .volume-set {
-    @include flex-justify-evenly();
-    flex-direction: column;
+    @include displayFlex(stretch, space-evenly, column nowrap);
     height: 15%;
 
     @media screen and (max-width: $small) {
@@ -108,7 +105,7 @@ nav {
   }
 
   .timer-set {
-    @include flex-center-children();
+    @include displayFlex(center, center);
     height: 15%;
 
     @media screen and (max-width: $small) {

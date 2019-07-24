@@ -52,14 +52,16 @@ nav {
       nav .overlay {
         width: 33vw !important; } }
   nav .nav-container {
+    align-items: stretch;
     display: flex;
+    flex-flow: column;
     justify-content: space-evenly;
-    flex-direction: column;
     height: 66%;
     transition: all 1s ease; }
   nav .brand-container {
     align-items: center;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     height: 20%;
     margin-top: 5vh; }
@@ -69,9 +71,10 @@ nav {
         nav .brand-container img {
           width: 50%; } }
   nav .icon-group {
+    align-items: stretch;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     height: 50%;
     width: 100%; }
     @media screen and (max-width: 400px) {
@@ -88,9 +91,10 @@ nav {
     nav .icon-group img:hover {
       transform: scale(1.25); }
   nav .volume-set {
+    align-items: stretch;
     display: flex;
+    flex-flow: column nowrap;
     justify-content: space-evenly;
-    flex-direction: column;
     height: 15%; }
     @media screen and (max-width: 400px) {
       nav .volume-set {
@@ -116,6 +120,7 @@ nav {
   nav .timer-set {
     align-items: center;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     height: 15%; }
     @media screen and (max-width: 400px) {
@@ -147,7 +152,7 @@ nav {
     display: none; }
 
 .modal {
-  background: white;
+  background: #fff;
   display: none;
   font-family: "Arial, Helvetica, sans-serif";
   left: 25vw;
@@ -170,8 +175,8 @@ nav {
   .modal .modal-flex-set {
     align-items: center;
     display: flex;
-    justify-content: center;
-    flex-direction: column; }
+    flex-flow: column nowrap;
+    justify-content: center; }
     .modal .modal-flex-set img {
       height: 20vh;
       margin: 2em 0; }
@@ -179,7 +184,9 @@ nav {
       letter-spacing: 0.1rem;
       width: 75%; }
     .modal .modal-flex-set .button-set {
+      align-items: stretch;
       display: flex;
+      flex-flow: row nowrap;
       justify-content: space-evenly;
       margin: 1.25em 0;
       width: 100%; }
@@ -187,8 +194,8 @@ nav {
 .player-container {
   align-items: center;
   display: flex;
-  justify-content: center;
   flex-flow: column nowrap;
+  justify-content: center;
   height: 100vh;
   position: relative;
   z-index: 1; }

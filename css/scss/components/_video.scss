@@ -1,6 +1,5 @@
 .player-container {
-  @include flex-center-children();
-  flex-flow: column nowrap;
+  @include displayFlex(center, center, column nowrap);
   height: 100vh;
   position: relative;
   z-index: 1;

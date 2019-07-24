@@ -1,5 +1,5 @@
 .modal {
-  background: white;
+  background: $theme-white;
   display: none;
   font-family: $informational-font;
   left: 25vw;
@@ -25,8 +25,7 @@
   }
 
   .modal-flex-set {
-    @include flex-center-children();
-    flex-direction: column;
+    @include displayFlex(center, center, column nowrap);
 
     img {
       height: 20vh;
@@ -39,7 +38,7 @@
     }
 
     .button-set {
-      @include flex-justify-evenly();
+      @include displayFlex(stretch, space-evenly);
       margin: 1.25em 0;
       width: 100%;
     }

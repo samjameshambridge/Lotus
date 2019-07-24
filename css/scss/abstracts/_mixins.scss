@@ -1,10 +1,7 @@
-@mixin flex-center-children {
-  align-items: center;
+// mixin for flex properties
+@mixin displayFlex($align-items, $justify-content, $flex-flow: row nowrap) {
+  align-items: $align-items;
   display: flex;
-  justify-content: center;
-}
-
-@mixin flex-justify-evenly {
-  display: flex;
-  justify-content: space-evenly;
+  flex-flow: $flex-flow;
+  justify-content: $justify-content;
 }
