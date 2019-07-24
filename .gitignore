@@ -1,3 +1,4 @@
 LICENSE
 package.json
 *.map
+/node_modules
