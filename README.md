@@ -16,7 +16,7 @@
 
 This app is a proof of concept app. It is designed to be used for people who want to either:
 
-1. Meditate to peaceful and immersive landscapesfor a set amount of time.
+1. Meditate to peaceful and immersive landscapes for a set amount of time.
 2. Play the landscapes and their sounds in the background of the PC for a relaxing and calm environment.
 
 ## Screenshots
